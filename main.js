@@ -2,8 +2,14 @@
 //   $('hamburger-menu a').show();
 // })
 
-var hamburger = $("header-right i");
+var hamburger = $(".header-right i");
 
 hamburger.click(function(){
-  $("hamburger-menu").show();
+  $(".hamburger-menu").show();
+})
+
+var close = $(".hamburger-menu i");
+
+close.click(function(){
+  $(".hamburger-menu").hide();
 })
